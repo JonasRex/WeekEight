@@ -11,22 +11,15 @@
 import java.util.Arrays;
 
 class Main {
-	//public int[] numb = new int[3];
-	//public String[] word = new String[3];
-	//public boolean[] statement = new boolean[3];
-
 	public static void main(String [] args) {
 	int[] numb = {513, 154, 89, 623, 51};
 	String[] word = {"Ape", "Bird", "Camel", "Dog", "Elephant"};
 	boolean[] statement = {true, true, false};
-		
-
 
 		printStringArray(word);
 		printSumInt(numb);
 		printAvgValue(numb);
 		printSortedArray(numb);
-
 
 	}
 
@@ -36,8 +29,6 @@ class Main {
 		for (int i = 0; i < word.length; i++) {
 			System.out.println(word[i]);
 		}
-
-
 	}
 
 	public static void printSumInt(int[] numb) {

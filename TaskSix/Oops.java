@@ -20,6 +20,7 @@ class Oops {
       System.out.println("b is the smallest!");
     }
   }
+  
   public static char minimum(int a, int b) {
     char smaller; 
     if (a < b) {

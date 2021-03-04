@@ -27,16 +27,12 @@ public static void main(String [] args) {
 	students[7] = new Student("Maria", 31, true, "Hold Z", 3810);
 	students[8] = new Student("Karina", 28, true, "Hold Z", 6003);
 	students[9] = new Student("Thor", 23, false, "Hold Z", 7631);
-
-		
-
 	
 	System.out.println(returnName(students, 3810));
 	
 	System.out.println(returnIndex(students, "Thor"));
 
 	}
-
 
 
 	public static String returnName(Student[] students, int number) {

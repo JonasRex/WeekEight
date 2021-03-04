@@ -31,8 +31,6 @@ class Main{
 
   public static boolean iAmHappy()
   {
-    
-    
     return happy;     // 2.a Changed true to happy
   }
 

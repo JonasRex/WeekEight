@@ -7,8 +7,15 @@ class Main {
 
 
 	public static void main(String [] args) {
+		printEmpty();
 		printParameter("School");
 		printNameAge("Jonas", 36);
+	}
+
+
+	public static void printEmpty() {
+		System.out.println(" ");
+
 	}
 
 
